@@ -1,0 +1,22 @@
+{
+  "name": "tsexpress",
+  "version": "1.0.0",
+  "description": "test TS with ExpressJS",
+  "license": "ISC",
+  "author": "jingle chen",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
