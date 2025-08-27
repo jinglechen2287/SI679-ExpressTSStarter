@@ -1,7 +1,7 @@
 import express from "express";
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 app.use(express.urlencoded());
 app.use(express.json());
@@ -49,7 +49,7 @@ app.get("/people", (req, res) => {
       "Gaurav",
     ];
     const result = people.find(
-      (p) => p[0].toLowerCase() === (letter as string)[0].toLowerCase()
+      (p) => p[0]?.toLowerCase() === (letter as string)[0]?.toLowerCase()
     );
     res.send(result ? result : `No person found for ${letter}`);
   }
