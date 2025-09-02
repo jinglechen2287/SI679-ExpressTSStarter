@@ -1,26 +1,27 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "outDir": "./dist",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "erasableSyntaxOnly": true,
-    
-    /* Strictness */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "allowUnusedLabels": false,
-    "allowUnreachableCode": false,
-    "noImplicitOverride": true,
-    "noUncheckedIndexedAccess": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "exactOptionalPropertyTypes": true,
-    "verbatimModuleSyntax": true,
-  },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
-}
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "CommonJS",
+      "outDir": "./dist",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "erasableSyntaxOnly": true,
+      
+      /* Strictness */
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "allowUnusedLabels": false,
+      "allowUnreachableCode": false,
+      "noImplicitOverride": true,
+      "noUncheckedIndexedAccess": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUncheckedSideEffectImports": true,
+      "forceConsistentCasingInFileNames": true,
+      "exactOptionalPropertyTypes": true,
+      "verbatimModuleSyntax": false,
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
